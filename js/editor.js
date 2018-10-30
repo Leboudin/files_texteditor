@@ -466,8 +466,11 @@ var Files_Texteditor = {
 		OC.addScript(
 			'files_texteditor',
 			'core/vendor/ace-builds/src-noconflict/theme-clouds',
+			'core/vendor/ace-builds/src-noconflict/theme-grovbox',
+			'core/vendor/ace-builds/src-noconflict/theme-idea',
+			'core/vendor/ace-builds/src-noconflict/theme-tommorrow_night',
 			function () {
-				window.aceEditor.setTheme("ace/theme/clouds");
+				window.aceEditor.setTheme("ace/theme/grovbox");
 			}
 		);
 		// Bind the edit event
