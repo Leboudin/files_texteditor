@@ -468,9 +468,10 @@ var Files_Texteditor = {
 			'core/vendor/ace-builds/src-noconflict/theme-clouds',
 			'core/vendor/ace-builds/src-noconflict/theme-grovbox',
 			'core/vendor/ace-builds/src-noconflict/theme-idea',
-			'core/vendor/ace-builds/src-noconflict/theme-tommorrow_night',
+			'core/vendor/ace-builds/src-noconflict/theme-tomorrow_night',
+			'core/vendor/ace-builds/src-noconflict/theme-monokai',
 			function () {
-				window.aceEditor.setTheme("ace/theme/grovbox");
+				window.aceEditor.setTheme("ace/theme/monokai");
 			}
 		);
 		// Bind the edit event
